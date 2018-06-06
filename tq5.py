@@ -28,5 +28,5 @@ randoms = [
 
 m = MultiBar(randoms, 20,
              total=len(randoms),
-             desc='Super Duper Turbo Ultra Progressbar | Wishlists')
+             desc='Super Duper Ultra Turbo Progressbar | Wishlists')
 m.run()

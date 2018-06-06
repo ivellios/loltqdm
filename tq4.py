@@ -66,5 +66,5 @@ wishlists = [
 m = MultiBar(wishlists,
              20,
              total=len(wishlists),
-             desc='Super Duper Turbo Progressbar | Wishlists')
+             desc='Super Duper Ultra Progressbar | Wishlists')
 m.run()
