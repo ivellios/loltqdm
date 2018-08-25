@@ -4,15 +4,19 @@ from multibar import TqdmBar
 
 # how about putting this one into the classes?
 
-class WishlistBar(TqdmBar):
+# class WishlistBar(TqdmBar):
+#
+#     def __init__(self, number):
+#         self.total = random.randint(100, 1000)
+#         self.items = range(self.total)
+#         self.desc = 'Thank you for asking {}'.format(number)
+#
+#     def process_item(self, item):
+#         sleep(random.random() * 0.01)
+#
+#
+# WishlistBar('1').run()
 
-    def __init__(self, number):
-        self.total = random.randint(100, 1000)
-        self.items = range(self.total)
-        self.desc = 'Wishlist {}'.format(number)
+# Since I am no longer using this example on presentations...
 
-    def process_item(self, item):
-        sleep(random.random() * 0.01)
-
-
-WishlistBar('1').run()
+print('Good catch! :-)')
