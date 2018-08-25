@@ -17,6 +17,7 @@ from multibar import TqdmBar
 #
 # WishlistBar('1').run()
 
-# Since I am no longer using this example on presentations...
+# Since I am no longer using this example on presentations,
+# to all vigilant people who noticed tq3 missing from my talk...
 
 print('Good catch! :-)')
